@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yakusoku Takoyaki-PH</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body oncontextmenu = "return false;" data-spy="scroll" data-target="#navbar" class="static-layout">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+    
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Special Dishes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="special-dishes.html">Takoyaki</a>
+                          <a class="dropdown-item" href="special-dishes.html">Fried Noodles</a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="reservation.html">Contact Us</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>		<div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">Craving Tako? <br>We Got You!</h1>
+		    <div class="mb-2">
+		    	<a class="btn btn-primary btn-shadow btn-lg" href="#" role="button">Explore Menu</a>
+			    <a class="btn btn-icon btn-lg" href="img/vid.mp4" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">
+			    	<span class="lnr lnr-film-play"></span>
+			    	Play Video
+			    </a>
+		    </div>
+		   
+		    <ul class="hero-info list-unstyled d-flex text-center mb-0">
+		    	<li class="border-right">
+		    		<span class="lnr lnr-rocket"></span>
+		    		<h5>
+		    			Fast Delivery
+		    		</h5>
+		    	</li>
+		    	<li class="border-right">
+		    		<span class="lnr lnr-leaf"></span>
+		    		<h5>
+		    			Umami Delight
+		    		</h5>
+		    	</li>
+		    	<li class="">
+		    		<span class="lnr lnr-bubble"></span>
+		    		<h5>
+		    			Excellent Service
+		    		</h5>
+		    	</li>
+		    </ul>
+
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-1.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-2.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-3.jpg" alt="">
+			    </div>
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>		<!-- Welcome Section -->
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/hero-2.jpg);">
+                    
+                </div>
+                <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                    <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                            About
+                        </span>
+                        <h2>
+                            Yakusoku: A Delicious Promise in Every Bite
+                        </h2>
+                    </div>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p>Born from a shared passion for Japanese flavors, Yakusoku Takoyaki began as a simple dream: to bring the authentic taste of Japan to the Philippines. Founded by friends John Lemuel Chavez and Mery Concepcion Cabrera, "Yakusoku" (meaning "promise" in Japanese) embodies our unwavering commitment to quality. It's a promise not just to ourselves, but to you, our valued customers.
+
+                            We started with a humble passion project during the pandemic, taking online platforms by storm with our fresh, delectable takoyaki. Our dedication to deliciousness resonated with you, and Yakusoku Takoyaki has blossomed into a thriving business. Today, we're proud to serve you not only virtually but also at our two physical branches in Antipolo and Pasig.
+                            
+                            Come experience the Yakusoku difference! We invite you to savor the explosion of flavor in every perfectly crafted takoyaki. We promise an unforgettable taste of Japan, right here in the Philippines.</p>
+                        <h3 class="mt-5">Takoyaki Flavors</h3>
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-4.jpg" />
+                                    <h6>Ham & Cheese</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-5.jpg" />
+                                    <h6>Octobits</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-6.jpg"/>
+                                    <h6>Double Cheese</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Welcome Section -->		<!-- Special Dishes Section -->
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Specialties
+                </span>
+                <h2>
+                    Special Dishes
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Takoyaki</span><br>with Bonito Flakes</h3>
+                        <p class="pt-3">These takoyaki are bite-sized treasures. Crispy golden spheres on the outside, they give way to a hot, fluffy interior filled with your choice of savory goodness. A sprinkle of seaweed adds a pop of freshness, while dancing bonito flakes and fiery togarashi create a smoky, spicy symphony.</p>
+                        <h3 class="special-dishes-price">₱98 - ₱228</h3>
+                        <a href="#" class="btn-primary mt-3">Buy</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/tako balls.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/fried noods.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Fried Noodles</span><br> with Siomai</h3>
+                        <p class="pt-3">A stir-fry symphony of textures and flavors. Golden noodles, springy and coated in a sweet-savory sauce, mingle with the refreshing crunch of fresh bean sprouts. Steamed or fried siomai dumplings complete the dish, offering a juicy, savory contrast.</p>
+                        <h3 class="special-dishes-price">₱35 - ₱50</h3>
+                        <a href="#" class="btn-primary mt-3">Buy<span><i class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Special Dishes Section -->		<!-- Menu Section -->
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Our Menu
+                        </span>
+                        <h2>
+                            Takoyakis + Add Ons
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Takoyaki Flavors</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/hero-4.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Ham & Cheese</h4>
+                                </div>
+                            </div>
+                            <p>8pcs • 12pcs • 16pcs • 20pcs</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/hero-5.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Octobits</h4>
+                                </div>
+                            </div>
+                            <p>8pcs • 12pcs • 16pcs • 20pcs</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/hero-6.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Double Cheese</h4>
+                                </div>
+                            </div>
+                            <p>8pcs • 12pcs • 16pcs • 20pcs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Add Ons</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/cheese.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>More Cheese!</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">+₱15</h4>
+                                </div>
+                            </div>
+                            <p>for 12 pieces of Takoyaki</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/cheese.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>More Cheese!</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">+₱20</h4>
+                                </div>
+                            </div>
+                            <p>for 16 pieces of Takoyaki</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/cheese.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>More Cheese!</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">+₱25</h4>
+                                </div>
+                            </div>
+                            <p>for 20 pieces of Takoyaki</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Add Ons</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/pork floss.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Add Pork Floss!</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">+₱20</h4>
+                                </div>
+                            </div>
+                            <p>for 12 pieces of Takoyaki</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/pork floss.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Add Pork Floss!</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">+₱25</h4>
+                                </div>
+                            </div>
+                            <p>for 16 pieces of Takoyaki</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/pork floss.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Add Pork Floss!</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">+₱30</h4>
+                                </div>
+                            </div>
+                            <p>for 20 pieces of Takoyaki</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of menu Section -->		<!-- Testimonial Section-->
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/testi-bg.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Testimonies
+                </span>
+                <h2>
+                    Happy Customer
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial -->
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Their octobits are packed with the actual stuff, true to their claim and super yummy! The owners are accommodating and friendly towards their customers.</p>
+                        <p class="testi-author">Eunice Torrecampo</p>
+                        <p class="testi-desc">Customer from<span> Antipolo Branch</span></p>
+                    </div>
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">This place is amazing! The food is absolutely delicious, and they definitely don't skimp on the ingredients. Every bite is bursting with flavor. I highly recommend trying it out – you won't be disappointed!</p>
+                        <p class="testi-author">Archie Muyargas</p>
+                        <p class="testi-desc">Customer from <span>Pasig Branch</span></p>
+                    </div>
+                </div>
+                <!-- End of Testimonial -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Testimonial Section-->		<!-- Team Section -->
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Our Team
+                </span>
+                <h2>
+                    Meet the Owners!
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/owner-1.jpeg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">John Lemuel Chavez</h4>
+                            <p class="mb-1">Owner & Antipolo Branch Manager</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/cheesecake0130">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://x.com/JohnCha14590643?t=fj8q_6eV6eVlec2Bdq_HuQ&s=09">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/keso.senpai/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/owner-2.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Mr. Chavez & Ms. Cabrera</h4>
+                            <p class="mb-1">Owners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/owner-3.jpeg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Mery Concepcion Cabrera</h4>
+                            <p class="mb-1">Owner & Pasig Branch Manager</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/consi08">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/consico/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Team Section -->		<!-- Reservation Section -->
+<section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(img/reservation-bg.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section-content bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Delivery
+                        </span>
+                        <h2>
+                            Check Out
+                        </h2>
+                    </div>
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Address">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Date" />
+                                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-calendar-full"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Time" />
+                                    <div class="input-group-append" data-target="#datetimepicker3" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-clock"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <select class="form-control" id="selectOrder">
+                                    <option>~ Place Order Here ~</option>
+                                    <option>Ham & Cheese 8 pcs (₱98)</option>
+                                    <option>Ham & Cheese 12 pcs (₱138)</option>
+                                    <option>Ham & Cheese 16 pcs (₱178)</option>
+                                    <option>Ham & Cheese 20 pcs (₱228)</option>
+                                    <option>~</option>
+                                    <option>Octobits 8 pcs (₱98)</option>
+                                    <option>Octobits 12 pcs (₱138)</option>
+                                    <option>Octobits 16 pcs (₱178)</option>
+                                    <option>Octobits 20 pcs (₱228)</option>
+                                    <option>~</option>
+                                    <option>Double Cheese 8 pcs (₱98)</option>
+                                    <option>Double Cheese 12 pcs (₱138)</option>
+                                    <option>Double Cheese 16 pcs (₱178)</option>
+                                    <option>Double Cheese 20 pcs (₱228)</option>
+                                    <option>~</option>
+                                    <option>Fried Noodles (₱35)</option>
+                                    <option>Fried Noodles w/ Siomai (₱50)</option>
+                                </select>
+                            </div>
+                 
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Add ons & Notes to the store/driver..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Check Out</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- End of Reservation Section -->		<footer class="mastfoot pb-5 bg-white section-padding pb-0">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4">
+         		<div class="footer-widget pr-lg-5 pr-0">
+         			<img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+	         		<p><b>Store Locations</b><br>
+                        <b>Antipolo Branch:</b> Sitio Gumamela, Antipolo City, Philippines <br>
+                        <b>Pasig Branch:</b> Napico, Pasig City, Philippines
+                    </p>
+	         		<nav class="nav nav-mastfoot justify-content-start">
+		                <a class="nav-link" href="https://www.facebook.com/Yakusoku.TakoyakiPasig">
+		                	<i class="fab fa-facebook-f"></i>
+		                </a>
+		                <a class="nav-link" href="https://www.facebook.com/Yakusoku.Takoyaki">
+		                	<i class="fab fa-facebook-f"></i>
+		                </a>
+		            </nav>
+         		</div>
+         		
+         	</div>
+         	<div class="col-lg-4">
+         		<div class="footer-widget px-lg-5 px-0">
+         			<h4>Store Hours</h4>
+	         		<ul class="list-unstyled open-hours">
+		                <li class="d-flex justify-content-between"><span>Monday</span><span> Closed</span></li>
+		                <li class="d-flex justify-content-between"><span>Tuesday</span><span>21:00 - 3:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Wednesday</span><span>21:00 - 3:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Thursday</span><span>21:00 - 3:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Friday</span><span>21:00 - 3:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Saturday</span><span>21:00 - 3:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Sunday</span><span>21:00 - 3:00</span></li>
+		              </ul>
+         		</div>
+         		
+         	</div>
+
+         	<div class="col-lg-4">
+         		<div class="footer-widget pl-lg-5 pl-0">
+         			<h4>Franchising?</h4>
+	         		<p>Interested on being part of Yakusoku Takoyaki? Please do contact us!</p>
+	         		<form id="newsletter">
+						<div class="form-group">
+							<input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Enter email">
+						</div>
+						<button type="submit" class="btn btn-primary w-100">Submit</button>
+					</form>
+         		</div>
+         		
+         	</div>
+            
+        </div>
+    </div>
+</footer>	</div>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+</body>
+</html>
